@@ -1,0 +1,180 @@
+nav#menu ul{
+    list-style: none;/*remover estilo da lista*/
+    text-transform: uppercase;/*Colocar Letras em Maiusculo*/
+    margin: 0 auto;
+    position: relative;/* posiçao da lista relativa*/
+   text-align: center;/*Alinhamento do Texto Centralizado*/
+   }
+   
+   nav#menu li{
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu li:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+nav#menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+   
+   .cabecalho h1{
+       color: rgb(253, 253, 253);
+       font-size: 40px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       margin: 0 auto;
+       position: relative;
+       text-align: center
+   }
+   
+   .cabecalho h2{
+       color: rgb(235, 235, 235);
+       font-size: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       margin: 0 auto;
+       position: relative;
+       text-align: center;
+   }
+   .cabecalho{
+    background-color: black;
+  }
+   
+   .cabecalho h3{
+    color: rgb(235, 235, 235);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+   .corpo img{
+       padding-top: 15px;
+       width: 400px;
+       height: 250px;
+   }
+   
+   
+   
+  
+   
+   div#interface2{
+       width: 700px;
+       margin: 0 auto;
+       background-color: rgb(0, 0, 0);
+   }
+   
+   .tabela img{
+       width: 0 auto;
+       height: 300px;
+   }
+   
+   .tabela{
+       margin: 0 auto;
+       text-align: center;
+   }
+   
+   .tabela h3{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: rgb(248, 238, 238);
+       text-shadow: rgb(255, 255, 255);
+   }
+   
+   .tabela2 {
+       margin: 0 auto;
+       text-align: center;
+   }
+
+   .row{
+    color: white;
+   }
+
+   body {  
+    background-image: url(../img/coro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+/* Estilo do rodapé */
+#footer {
+    background-color: #141414;
+    color: #757575;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.0rem;
+  }
+
+
+  .nav_logo{
+    width: 50px;
+    object-fit: contain;
+  }
+
+  .nav_avatar{
+    width :10px;
+    object-fit: contain;
+  }
+  .nav{
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+  }
+  .nav_black{
+    background-color: #000000;
+  }
+
+  .btn {
+    display: inline-block;
+    background:rgb(204, 13, 13);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgb(255, 255, 255);
+    border-radius: 2px;
+  }
+    
+  .btn-rounded {
+    border-radius: 5px;
+  }
+
+  .showcase-top {
+    position: relative;
+    height: 70px;
+    z-index: 2;
+  }
+  
+  .showcase-top img {
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .showcase-top a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }

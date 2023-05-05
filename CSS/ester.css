@@ -1,0 +1,203 @@
+/* Estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #111;
+    color: #ffffff;
+  }
+  
+  #header {
+    background-color: #111;
+    height: 80px;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: relative;
+  }
+  
+  #header img {
+    height: 100%;
+    }
+  
+    #imagem grande {
+      width: 80%;
+      height: 80%;
+    }
+    
+    
+    #nav {
+      background-color: (0, 0, 0, 0.5);
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 50px;
+      position: absolute; left: 15%;
+      top: 1;
+      z-index: 1;
+      position: fixed;
+    }
+    
+    #nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #nav ul li {
+      margin-right: 20px;
+    }
+    
+    #nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    
+    #hero {
+      background-image: url(https://jpimg.com.br/uploads/2019/04/peaky-blinders.jpg);
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #fff;
+    }
+    
+    .banner_title {
+      font-size: 5em;
+      margin-bottom: 0;
+      }
+    
+    .banner_buttons {
+      display: flex;
+      margin-top: 1em;
+      
+
+    }
+    
+    .banner_button {
+      background-color: #ffffff;
+      color: #000;
+      font-size: 1.5em;
+      padding: 0.5em 1.5em;
+      border: none;
+      border-radius: 5px;
+      margin-right: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      text-decoration: none;
+    
+    }
+    
+    .banner_button:hover {
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    
+    .container {
+      position: relative;
+    }
+    
+    .texto {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      color: #ffffff;
+      text-align:end ;
+    }
+    
+    .nav_logo{
+      position: fixed;
+        width: 100px;
+        object-fit: contain;
+      }
+      .nav_avatar{
+        width :40px;
+        object-fit: contain;
+        position: relative;right: 3%;
+        position: fixed;
+      }
+    
+  
+  
+   /* Estilo da seção Continuar assistindo */
+   section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .row_posters {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 20px 0;
+    transition: all 0.2s ease-in-out;
+   
+  }
+  .row_posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .poster {
+    width: 185px;
+    height: 278px;
+    object-fit: contain;
+    margin-right: 18px;
+    scroll-snap-align: start;
+  }
+  
+  .poster:last-of-type {
+    margin-right: 0;
+  }
+  
+  .poster:hover {
+    transform: scale(1.08);
+  }
+  
+  /* Estilo da seção Lançamentos, Top 10, Principais buscas e Exclusivos */
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .poster_large {
+    width: 400px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+
+  }
+  
+  .poster_large:hover {
+    transform: scale(1.08);
+  }
+
+  
+  /* Estilo do rodapé */
+  #footer {
+    background-color: #141414;
+    color: #757575;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+  
